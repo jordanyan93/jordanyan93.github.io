@@ -11,7 +11,7 @@ function Intro() {
                 in addition to learning techinical skills such as React, Vite and Tailwind CSS. <br />
             </p>
             <p className="text-sm max-w-xl mb-6 font-bold">
-                When I'm not doing work I enjoy playing video games and sports.
+                When I'm not doing work, I enjoy playing video games and sports.
                 My main passion is ice hockey because I simply love to play and watch this super fast sport.
             </p>
         </div>
