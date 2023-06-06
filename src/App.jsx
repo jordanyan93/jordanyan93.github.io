@@ -5,8 +5,6 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
-import './styles/index.css';
-
 
 function App() {
 
