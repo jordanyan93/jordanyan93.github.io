@@ -11,10 +11,6 @@ function Background() {
                         <h2>Welcome</h2>
                     </div>
                 </div>
-                <div className="wave wave1"></div>
-                <div className="wave wave2"></div>
-                <div className="wave wave3"></div>
-                <div className="wave wave4"></div>
             </section>
         </div>
     )
