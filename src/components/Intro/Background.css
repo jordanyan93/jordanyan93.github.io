@@ -27,6 +27,10 @@
     animation: animate3 4s ease-in-out infinite;
 }
 
+.introduction {
+    color: #fff;
+}
+
 /* text animation */
 @keyframes animate3 {
     0%,100%
