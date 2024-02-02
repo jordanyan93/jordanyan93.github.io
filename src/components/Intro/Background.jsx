@@ -12,7 +12,7 @@ function Background() {
                     </div>
                     <div className="introduction">
                         <h2 className="text-4xl md:text-7xl mb-1 md: mt-40 mb-3 font-bold">Hello I'm Jordan Yan</h2>
-                        <h2 className="text-base text-center md: text-xl mb-3 font-medium">CS Student & (Trying) Software Engineer</h2>
+                        <h2 className="text-base text-center md: text-xl mb-3 font-medium">CS Student, Lover Of Watching And Playing Hockey</h2>
                     </div>
                 </div>
             </section>
