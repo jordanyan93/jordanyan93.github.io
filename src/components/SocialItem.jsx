@@ -2,17 +2,17 @@ import React from 'react';
 
 function SocialItem({ imgUrl, link }) {
     return (
-        <div className>
+        <div className="mx-4">
             <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg overflow-hidden mx-5"
-        >
+                className="rounded-lg overflow-hidden mx-5"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
             <img
+                className="h-16 md:h-16"
                 src={imgUrl}
                 alt="socials" 
-                className="h-16 md:h-16"
             />
             </a>
         </div>

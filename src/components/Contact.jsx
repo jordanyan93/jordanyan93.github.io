@@ -1,6 +1,5 @@
 import React from 'react';
-import socials from '../data/socials';
-import SocialItem from './SocialItem';
+import Title from './Title';
 
 function Contact() {
     return (
@@ -11,17 +10,42 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center" >
-            <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 gap-5 w-25">
-                {socials.map(social => (
-                    <SocialItem 
-                        imgUrl={social.imgUrl}
-                        link={social.link}
-                    />
-                ))}
-            </div>
-                
-
+            <div className="flex flex-col mb-10 mx-auto">
+                <div className="flex justify-center items-center">
+                    <form 
+                        action="https://getform.io/f/bgdyopea"
+                        method="POST"
+                        className="flex flex-col w-full md:w-7/12"
+                    >
+                        <Title>Contact</Title>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        />
+                        <textarea
+                            type="text"
+                            name="message"
+                            placeholder="Message"
+                            rows="10"
+                            className="mb-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        />
+                        <button
+                            type="submit"
+                            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white
+                            bg-gradient-to-r from-teal-500 to-blue-500 drop-shadow-md hover:from-blue-500 hover:to-teal-500"
+                        >
+                            Send Something To Me
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     )
