@@ -17,9 +17,9 @@ export default [
 
     {
         id: 3,
-        title: 'Contributed to Developing a Social Network',
-        imgUrl: '/assets/coming soon.png',
-        stack: ['PHP', 'cURL'],
-        link:'',
+        title: 'ML Digit Recognizer From Scratch',
+        imgUrl: '/assets/MNIST_dataset_example.png',
+        stack: ['Python', 'NumPy', 'Matplotlib'],
+        link:'https://github.com/jordanyan93/MNIST-From-Scratch',
     }
 ]
